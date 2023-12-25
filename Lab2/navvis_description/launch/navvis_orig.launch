@@ -1,0 +1,7 @@
+<launch>
+    <arg name="filename" default="navvis.urdf"/>
+    <arg name="file" default="$(find navvis_description)/urdf/$(arg filename)"/>
+    <param name="robot_description" textfile="$(arg file)"/>
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" />
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find navvis_description)/config/config.rviz" required="true"/>
+</launch>
