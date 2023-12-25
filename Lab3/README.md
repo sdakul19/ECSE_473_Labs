@@ -1,4 +1,6 @@
 <h1>Navvis_bags</h1>
+<h2>About</h2>
+This is lab3 for ecse473. Sensor data is read from navvis_bags and displayed onto a 3D map.
 
 <h2>To view the robot and sensor data:</h2>
 Setup ROS enviroment
