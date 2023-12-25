@@ -1,0 +1,12 @@
+<launch>
+    <include file="$(find navvis_bags)/launch/lab2_launch.launch">
+        <arg name="file" default="$(find navvis_bags)/urdf/navvis_bags.xacro"/>
+        <arg name="use_joint_state_publisher_gui" default="true"/>
+        <arg name="use_robot_state_publisher" default="true"/> 
+        <arg name="use_xacro" default="true"/>
+    </include>
+    <arg name="use_sim_time" default="true"/>
+    <node if="$(arg use_sim_time)" pkg="rosbag" type="play" name="rosbag" args="--clock /home/sdakul19/glennan_5_basic_short.bag /tf_trajectory:=/tf "/>
+    <!-- <node pkg="map_server" type="map_server" name="map_server" args="$(find maps_glennan)/maps/glennan5_map.yaml"/> -->
+
+</launch>
