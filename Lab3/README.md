@@ -33,3 +33,5 @@ use_sim_time allows the user to use an external clock to play the rosbags<br>
 
 The node that calls the rosbag includes the location of the bag file as an argument instead of being entered manually for safety purposes.
 </p>
+
+<h2>**BAGS AND MAP DATA ARE NOT INCLUDED FOR PRIVACY REASONS**</h2>
