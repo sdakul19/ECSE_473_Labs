@@ -1,4 +1,7 @@
-How to use the launch files
+<h1>About</h1>
+This is lab2 for Modern Robot programming which consists of creating a Navvis Robot with a URDF and XACRO's. The robot contains Hokuyo LIDAR and a Velodyne LIDAR.
+
+<h2>How to use the launch files</h2>
 
 After configuring ROS with /opt/ros/noetic/setup.bash
 
