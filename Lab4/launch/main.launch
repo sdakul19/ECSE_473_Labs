@@ -1,0 +1,8 @@
+<launch>
+    <param name="wall_dist" value="0.5" type="double"/>
+    <arg name="robot_ns" default="robot0"/>
+    <include file="$(find robot_no_crash)/launch/robot_supervisor.launch" >
+        <remap from="/robot0/laser_1" to="/robot0/laser_0"/>
+    </include> 
+    <include file="/opt/ros/noetic/share/stdr_launchers/launch/server_with_map_and_gui_plus_robot.launch"/>
+</launch>
