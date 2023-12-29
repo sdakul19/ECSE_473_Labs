@@ -1,0 +1,11 @@
+# Pose Service
+
+# Request Part Pose
+geometry_msgs/Pose part_pose
+
+---
+# Number of solutions returned
+int8 num_sols
+
+# The joint angles to reach solution
+ik_service/JointSolutions[8] joint_solutions
