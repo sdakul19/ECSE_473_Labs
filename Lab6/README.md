@@ -1,5 +1,8 @@
 # How to use the ik_service package
 
+# About
+This is the second part of the ARIAC project. Lab 6 for ecse473
+
 ## How the package works
 The ik_service package uses a service and client to acquire joint angles to move the UR10 robot in the [Ariac competition](https://bitbucket.org/osrf/ariac/wiki/2019/documentation).
 The package also uses the ur_kinematics package from the [ecse_373_ariac](https://github.com/cwru-eecs-373/ecse_373_ariac/tree/noetic-devel/ur_kinematics) package.
